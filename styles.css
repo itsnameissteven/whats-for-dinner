@@ -1,12 +1,11 @@
 html {
   height: 100%;
-  width: 100%;
 }
+
 body {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   height: 100%;
   background-image: url("./assets/burger-friends.jpg");
   background-size: cover;
@@ -14,18 +13,20 @@ body {
   background-position: top right;
   font-family: 'Roboto', sans-serif;
 }
+
 .login-page{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%;
 }
+
 .is-not-visible {
   display: none;
 }
+
 .login-form {
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   background-color: rgba(225, 225, 225, .9);
@@ -33,6 +34,7 @@ body {
   width: 300px;
   border-radius: 5px;
 }
+
 h2 {
   font-size: 30px;
   height: fit-content;
@@ -44,6 +46,7 @@ input{
   margin-top: 15px;
   width: fit-content;
 }
+
 #submit {
   height: 21px;
   background-color: #0fb9b1;
@@ -51,22 +54,13 @@ input{
   border-radius: 5px;
   margin-top: 15px
 }
-/* .is-not-visible {
-  visibility: hidden;
-} */
-.hidden{
-  display: none;
-  height: 100%;
-}
-.unhidden {
-  display: flex;
-}
+
 .home-view {
   display: flex;
   flex-direction: row;
 }
+
 .whats-for-dinner {
-  display: block;
   position: fixed;
   top: 0px;
   left:0px;
@@ -75,17 +69,15 @@ input{
   background-color: #0fb9b1;
   font-size: 30px;
   margin-block-start: 0px;
-  margin-block-end: 10px;
 }
+
 main {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
-  height: 100%;
-  width: 100%;
 }
+
 #what-type-of-meal {
   background-color: rgba(225, 225, 225, .9);
   width: 526px;
@@ -100,12 +92,14 @@ main {
   font-weight:bold;
   color: #ee5253;
 }
+
 .cooking-pot {
   display: block;
   background-position: center;
   width: 125px;
   height: auto;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -113,14 +107,17 @@ form {
   font-size: 30px;
   font-weight: bold;
 }
+
 p {
   margin-bottom: 0px;
 }
+
 form div {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 18px;
 }
+
 .lets-cook {
   background-color: #0fb9b1;
   border: 0px;
@@ -129,10 +126,12 @@ form div {
   height: 38px;
   margin-top: 15px;
 }
+
 .what-to-cook {
   display: none;
   flex-flow: column;
 }
+
 #result {
   display: flex;
   justify-content: center;
@@ -144,19 +143,22 @@ form div {
   margin-left: 85px;
   margin-right: 122px;
 }
+
 #you-should-cook {
   margin-top: 125px;
   margin-bottom: 0px;
   font-size: 20px;
 }
+
 #suggested-dish {
   height: 150px;
   width: 450px;
   margin-top: 0px;
   padding: 10px;
-  font-size: 2vw;
+  font-size: 1.75vw;
   margin-bottom: 0px;
 }
+
 #clear-section {
   background-color: #95a5a6;
   color: #FBFCFC;
@@ -170,8 +172,8 @@ form div {
   margin: 34px;
   align-self: flex-end;
 }
+
 .error-message {
-  /* display: none; */
   font-size: 22px;
   justify-content: center;
   flex-direction: column;
@@ -181,11 +183,12 @@ form div {
   color: white;
   height: 200px;
   width: 325px;
-  background: linear-gradient(#e66465, #903132);
+  background: linear-gradient(#95a5a6, #0fb9b1);
   z-index: 5;
   border-radius: 5px;
   border: .25px solid #95a5a6;
 }
+
 #try-again {
   position: relative;
   background-color: #95a5a6;
@@ -200,29 +203,20 @@ form div {
   margin: 0px;
   margin-top: 60px;
   align-self: center
-
 }
+
 #sorry {
   font-size: 30px;
   height: fit-content;
   top: 25%;
 }
+
 area {
   justify-content: flex-end;
 }
+
 article {
   display: flex;
   margin: 2px;
   margin-bottom: 250px;
 }
-
-
-/* font-family: 'Roboto', sans-serif;
-
-COLORS
-teal - #0fb9b1;
-frosted white - rgba(225, 225, 225, .9);
-grey - #95a5a6;
-red - #ee5253
-
-*/
