@@ -8,7 +8,7 @@ What's for dinner is a web based app that will generate a random dish suggestion
 
 Steven Mancine [Github](https://github.com/itsnameissteven)
 
-## technologies
+## Technologies
 
 What's for dinner was built with html, external css and javaScript.
 
